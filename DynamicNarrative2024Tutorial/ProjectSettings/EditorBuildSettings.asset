@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Zhu chenhui/pipi1.unity
+    guid: 74791377de9571a4ea44042b19cd6abf
+  - enabled: 1
+    path: Assets/Scenes/Zhu chenhui/Zhu chenhui.unity
+    guid: faae2fb66abd6034d83c3370f94709b0
   m_configObjects: {}
