@@ -14,7 +14,7 @@ public class PlayerMoveController : MonoBehaviour
 
     private bool isJumping = false;
     private bool isPause = false;
-    private Rigidbody2D rb;
+    public Rigidbody2D rb;
 
     private void Start()
     {
