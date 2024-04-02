@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638470352677797991
-    m_Hash: 961204425
+      ticks: 638476622012256969
+    m_Hash: 287091960
   m_LockFileStatus:
     m_FilePath: I:/unity editor/DynamicNarrative2024Tutorial1/DynamicNarrative2024Tutorial/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638470352677848114
-    m_Hash: 4265975277
+      ticks: 638476622012256969
+    m_Hash: 1088298153
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
