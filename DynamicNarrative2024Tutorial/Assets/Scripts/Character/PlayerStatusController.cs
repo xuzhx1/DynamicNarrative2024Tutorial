@@ -20,6 +20,7 @@ public class PlayerStatusController : MonoBehaviour
     private PlayerMoveController moveCtrl;
     [HideInInspector] public HeroAnimationCotroller anim;
 
+
     public static PlayerStatusController Instance;
 
     private void Awake()

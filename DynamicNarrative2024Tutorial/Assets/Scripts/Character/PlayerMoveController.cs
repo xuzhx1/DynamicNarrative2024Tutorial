@@ -10,15 +10,19 @@ public class PlayerMoveController : MonoBehaviour
     public float jumpForce; // 跳跃力度
     public float brakingForce; //急停速率
     public float floatingForce; //悬浮力度
-    
+    public float NewJumpForce { get; set; } // 新的跳跃力度属性
 
     private bool isJumping = false;
     private bool isPause = false;
     private Rigidbody2D rb;
+    private PlayerStatusController playerStatusController;
+
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        playerStatusController = GetComponent<PlayerStatusController>();
+
     }
 
     private void Update()
@@ -96,9 +100,10 @@ public class PlayerMoveController : MonoBehaviour
         }
     }
 
-    private void Jump()
+    public void Jump()
     {
-        rb.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
+        float jumps = NewJumpForce;
+        rb.AddForce(new Vector2(0, jumps), ForceMode2D.Impulse);
         isJumping = true;
 
         // 动画
@@ -107,7 +112,6 @@ public class PlayerMoveController : MonoBehaviour
         // 声音
         MusicPlayer.Instance.PlaySound(SoundType.Jump);
     }
-
     private void Floating()
     {
         rb.AddForce(new Vector2(0, floatingForce * Time.deltaTime * 100f));
