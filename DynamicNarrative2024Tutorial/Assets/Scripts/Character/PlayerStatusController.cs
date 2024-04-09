@@ -14,7 +14,7 @@ public class PlayerStatusController : MonoBehaviour
     public delegate void PlayerReset();
     public static event PlayerReset OnPlayerReset;
 
-    private bool isLowEnergy;
+    public bool isLowEnergy;
     private bool isDead;
     private Vector3 birthPos;
     private PlayerMoveController moveCtrl;

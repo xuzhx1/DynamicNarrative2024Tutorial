@@ -48,7 +48,7 @@ public class MusicPlayer : MonoBehaviour
                 }
                 soundTypeDic[sound.type].Add(sound.name);
             }
-
+    
 
             if (sound.autoPlay)
             {
