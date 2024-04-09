@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b139bf9771b4c3eba835c7ed0fbe55a, type: 3}
   m_Name: SaveData
   m_EditorClassIdentifier: 
-  position: {x: 104.25955, y: 5.196471}
+  position: {x: -76.42, y: -15.440544}
   energy: 100
