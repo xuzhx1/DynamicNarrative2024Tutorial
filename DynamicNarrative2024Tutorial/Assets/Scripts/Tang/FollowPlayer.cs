@@ -5,6 +5,7 @@ public class FollowPlayer : MonoBehaviour
     public Transform player; // 玩家对象的Transform组件
     public float followRadius = 5f; // 角色开始跟随玩家的半径
     public float followSpeed = 2f; // 角色跟随玩家的速度
+    public Vector3 followOffset; // 跟随位置偏移
 
     private bool isFollowing = false; // 是否正在跟随玩家
 
@@ -26,11 +27,11 @@ public class FollowPlayer : MonoBehaviour
         // 如果正在跟随玩家，更新角色位置
         if (isFollowing)
         {
-            // 计算角色向玩家移动的方向
-            Vector3 direction = (player.position - transform.position).normalized;
+            // 计算目标位置，加上跟随位置偏移
+            Vector3 targetPosition = player.position + followOffset;
 
-            // 将角色沿着方向向玩家移动
-            transform.position += direction * followSpeed * Time.deltaTime;
+            // 将角色朝着目标位置移动S
+            transform.position = Vector3.MoveTowards(transform.position, targetPosition, followSpeed * Time.deltaTime);
         }
     }
 
