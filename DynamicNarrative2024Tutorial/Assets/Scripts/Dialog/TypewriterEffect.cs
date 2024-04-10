@@ -12,7 +12,7 @@ public class TypewriterEffect : MonoBehaviour
     private float timer;//计时器
     private TextMeshProUGUI tmp;
     private DialogBox box;
-    [SerializeField]private int currentPos = 0;//当前打字位置
+    [SerializeField] private int currentPos = 0;//当前打字位置
 
     // Use this for initialization
     void Start()
@@ -45,7 +45,7 @@ public class TypewriterEffect : MonoBehaviour
     private void OnStartWriter()
     {
         // 跳过打字
-        if(Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump"))
         {
             OnFinish();
             return;
@@ -58,7 +58,7 @@ public class TypewriterEffect : MonoBehaviour
             currentPos++;
             tmp.text = words.Substring(0, currentPos);//刷新文本显示内容
 
-            if (currentPos >= words.Length-1 || currentPos >= 40)
+            if (currentPos >= words.Length - 1 || currentPos >= 40)
             {
                 OnFinish();
             }
