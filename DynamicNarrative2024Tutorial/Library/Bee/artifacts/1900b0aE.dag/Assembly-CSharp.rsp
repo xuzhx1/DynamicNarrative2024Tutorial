@@ -365,6 +365,7 @@
 "Assets/Scripts/Dialog/DialogBox.cs"
 "Assets/Scripts/Dialog/TypewriterEffect.cs"
 "Assets/Scripts/GameManager.cs"
+"Assets/Scripts/HQX/CollisionDisappear.cs"
 "Assets/Scripts/Mechanics/EnergyPointsController.cs"
 "Assets/Scripts/Mechanics/Platform.cs"
 "Assets/Scripts/Music/MusicPlayer.cs"
