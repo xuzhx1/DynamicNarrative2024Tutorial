@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/HuQingxi/Hu Qingxi_week8.unity
+    guid: aa91b38f821536542a1fad66fbf662ed
+  - enabled: 1
+    path: Assets/Scenes/HuQingxi/Hu Qingxi_week8_scene2.unity
+    guid: 4e7d26f64b37b4f45901c3b44f4fe78b
   m_configObjects: {}
