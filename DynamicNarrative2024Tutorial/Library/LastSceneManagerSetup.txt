@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/HuQingxi/Hu Qingxi_week8.unity
+- path: Assets/Scenes/dwq/dwq_week8_2.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

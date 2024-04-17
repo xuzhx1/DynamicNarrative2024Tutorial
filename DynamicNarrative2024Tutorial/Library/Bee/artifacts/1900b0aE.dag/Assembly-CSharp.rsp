@@ -377,7 +377,7 @@
 "Assets/Scripts/Scene/PortalLoadScene.cs"
 "Assets/Scripts/Scene/SceneFramesEffect.cs"
 "Assets/Scripts/Tang/FollowPlayer.cs"
-"Assets/Scripts/WuJunyi/PlayerController.cs"
+"Assets/Scripts/WuJunyi/PlayerController_1.cs"
 -langversion:9.0
 
 /deterministic
